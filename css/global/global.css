@@ -1,0 +1,37 @@
+/* reset */
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+ul,
+h3,
+h2,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* pega a cor do propio elemento */
+  color: inherit;
+}
+
+img {
+  /* manten imagem 100% sem esticar */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* busca tds as imagens com final jpg e atribui border radius */
+img[src$="jpg"] {
+  border-radius: 5px;
+}

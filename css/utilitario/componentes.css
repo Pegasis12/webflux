@@ -1,0 +1,36 @@
+.container {
+  /* somar os paddings */
+  box-sizing: border-box;
+  /* maxima largura de 1200px */
+  max-width: 1600px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* coloca ao centro */
+  margin: 0 auto;
+}
+
+.botao {
+  /* faz com que o a ocupe o espacao de um elemento inline */
+  display: inline-block;
+  background: var(--cor-p1);
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 5px;
+  color: var(--cor-p2);
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--cor-0);
+  font: 500 1rem/1.5 "Poppins", sans-serif;
+  /* vai sempre crescer o maximo de tamanho dele mesmo */
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media(max-width: 800px){
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

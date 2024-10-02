@@ -1,0 +1,28 @@
+.header-bg {
+  background: var(--cor-p3);
+}
+
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.header a:hover{
+  color: var(--cor-p1);
+}
+
+.header ul img:hover{
+  opacity: 0.5;
+}
