@@ -1,0 +1,31 @@
+.projetos{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+  justify-items: center;
+}
+
+.projetos-galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.projetos-galeria iframe{
+  border-radius: 5px;
+}
+
+.projetos .botao{
+  margin-top: 40px;
+  background: var(--cor-p3);
+  border: 1px solid var(--cor-p1);
+}
+
+.projetos .botao:hover{
+  background: var(--cor-p1);
+}
+
+.projetos-galeria div:first-child{
+  margin-top: 80px;
+}

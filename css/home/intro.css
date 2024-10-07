@@ -2,8 +2,8 @@
   background-image: url("/img/fundo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 280px;
-  padding-bottom: 280px;
+  padding-top: 410px;
+  padding-bottom: 300px;
 }
 
 .intro{
@@ -12,12 +12,12 @@
 }
 
 .intro h1{
-  max-width: 30ch;
+  max-width: 28ch;
   margin-bottom: 20px;
 }
 
 .intro p{
-  
+  max-width: 40ch;
   margin-bottom: 32px;
 }
 
@@ -30,5 +30,12 @@
   .intro{
     justify-content: center; /* Centraliza verticalmente */
     text-align: center; /* Alinha o texto ao centro */
+  }
+}
+
+@media (min-width: 1970px){
+  .intro-bg {
+    background-size: 50%;
+    background-position: top center;
   }
 }
