@@ -2,13 +2,14 @@
   background-image: url("/img/fundo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 410px;
-  padding-bottom: 300px;
+  background-position: top center;
 }
 
 .intro{
   display: flex;
-  align-content: center;
+  align-items: center;
+  padding-top: 410px;
+  padding-bottom: 300px;
 }
 
 .intro h1{
@@ -25,17 +26,12 @@
   .intro{
     grid-template-columns: 1fr;
     place-content: center;
-  }
-
-  .intro{
-    justify-content: center; /* Centraliza verticalmente */
-    text-align: center; /* Alinha o texto ao centro */
+    text-align: center;
   }
 }
 
 @media (min-width: 1970px){
   .intro-bg {
     background-size: 50%;
-    background-position: top center;
   }
 }

@@ -26,3 +26,9 @@
 .header ul img:hover{
   opacity: 0.5;
 }
+
+@media(max-width: 1000px){
+  .header ul{
+    display: none;
+  }
+}
