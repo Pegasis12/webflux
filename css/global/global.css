@@ -10,7 +10,8 @@ ul,
 h3,
 h2,
 h4,
-p {
+p,
+dd{
   margin: 0px;
   padding: 0px;
 }

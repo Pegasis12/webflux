@@ -1,0 +1,68 @@
+.beneficios-bg{
+  background: var(--cor-p1);
+}
+
+.beneficios{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+.beneficios h2{
+  max-width: 18ch;
+}
+
+.beneficios-pergunta dl > div{
+  padding-top: 20px;
+}
+
+.beneficios-pergunta dd{
+  padding-top: 20px;
+  max-width: 80ch;
+}
+
+.beneficios-pergunta button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--cor-0);
+  width: 100%;
+  text-align: left;
+}
+
+.beneficios-pergunta button::after{
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 12px;
+  background: url("../../img/icones/ceta-fechada.svg");
+  transition: 0.3s;
+}
+
+.beneficios-pergunta button:hover::after{
+  transform: rotate(180deg);
+}
+
+.beneficios-pergunta dd{
+  display: none;
+}
+
+@media (max-width: 800px){
+  .beneficios{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .beneficios h2{
+    max-width: initial;
+  }
+}
