@@ -22,10 +22,20 @@
   margin-bottom: 32px;
 }
 
+
+
 @media(max-width: 800px){
   .intro{
     grid-template-columns: 1fr;
     place-content: center;
     text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+}
+
+@media(min-width: 2000px){
+  .intro-bg {
+    background-size: contain;
   }
 }
