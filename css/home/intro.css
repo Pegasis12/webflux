@@ -29,8 +29,8 @@
     grid-template-columns: 1fr;
     place-content: center;
     text-align: center;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 240px;
+    padding-bottom: 240px;
   }
 }
 
