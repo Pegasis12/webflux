@@ -32,3 +32,9 @@
     display: none;
   }
 }
+
+@media (min-width: 1000px){
+  .menu-h{
+    display: none;
+  }
+}

@@ -22,9 +22,11 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="./">
-        <img src="./img/logo.svg" alt="logo" width="170" height="70">
-      </a>
+      <picture>
+        <!-- substitui a imagem quando chegar em 800 px -->
+        <source media="(max-width: 800px)" srcset="./img/logo.svg" width="110" height="70">
+        <img src="./img/logo.svg" alt="projeto-glamour" width="170" height="70">
+      </picture>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m-b cor-4">
           <li><a href="#">Home</a></li>
@@ -37,6 +39,10 @@
           <li><a href="./"><img src="./img/redes/facebook.svg" alt="" width="20" height="20"></a></li>
         </ul>
       </nav>
+
+      <div class="menu-h">
+        <img src="./img/icones/menu.svg" alt="" width="50" height="50">
+      </div>
   </header>
 
   <main class="intro-bg">
