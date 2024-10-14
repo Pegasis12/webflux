@@ -5,36 +5,33 @@
   background-position: top center;
 }
 
-.intro{
+.intro {
   display: flex;
   align-items: center;
-  padding-top: 410px;
-  padding-bottom: 300px;
+  height: 100vh;
 }
 
-.intro h1{
+.intro h1 {
   max-width: 28ch;
   margin-bottom: 20px;
 }
 
-.intro p{
+.intro p {
   max-width: 40ch;
   margin-bottom: 32px;
 }
 
-
-
-@media(max-width: 800px){
-  .intro{
-    grid-template-columns: 1fr;
-    place-content: center;
+@media (max-width: 800px) {
+  .intro-conteudo {
     text-align: center;
-    padding-top: 240px;
-    padding-bottom: 240px;
+  }
+
+  .intro {
+    justify-content: center;
   }
 }
 
-@media(min-width: 2000px){
+@media (min-width: 2000px) {
   .intro-bg {
     background-size: contain;
   }

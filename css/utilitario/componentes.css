@@ -37,4 +37,8 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .botao {
+    font: 500 0.8rem/1.5 "Poppins", sans-serif;
+  }
 }
