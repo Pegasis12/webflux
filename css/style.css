@@ -7,6 +7,7 @@
 @import "./utilitario/componentes.css";
 @import "./utilitario/cores.css";
 @import "./utilitario/tipografia.css";
+@import "./utilitario/formulario.css";
 
 /* home */
 @import "./home/intro.css";
@@ -15,3 +16,4 @@
 @import "./home/feedbacks.css";
 @import "./home/promo.css";
 @import "./home/servicos.css";
+@import "./home/contato.css";

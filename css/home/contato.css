@@ -1,0 +1,29 @@
+.contato-bg{
+  background: var(--cor-0);
+}
+
+.contato{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contato h2{
+  margin-bottom: 20px;
+}
+
+.contato p{
+  max-width: 28ch;
+}
+
+@media(max-width: 800px){
+  .contato{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .contato p{
+    max-width: initial;
+  }
+}
