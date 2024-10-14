@@ -63,6 +63,7 @@
   }
   
   .beneficios h2{
+    text-align: center;
     max-width: initial;
   }
 }

@@ -1,0 +1,26 @@
+.promo{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.promo h2{
+  margin-bottom: 20px;
+}
+
+.promo p{
+  margin-bottom: 40px;
+}
+
+.promo-galeria{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media(max-width: 800px){
+  .promo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

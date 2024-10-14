@@ -35,5 +35,5 @@ img {
 
 /* busca tds as imagens com final jpg e atribui border radius */
 img[src$="jpg"] {
-  border-radius: 5px;
+  border-radius: 10px;
 }
