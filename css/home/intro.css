@@ -21,9 +21,20 @@
   margin-bottom: 32px;
 }
 
+.intro-conteudo > div{
+  display: none;
+}
+
 @media (max-width: 800px) {
   .intro-conteudo {
+    display: grid;
     text-align: center;
+    justify-items: center;
+  }
+
+  .intro-conteudo > div{
+    display: block;
+    margin-top: 12px;
   }
 
   .intro {
