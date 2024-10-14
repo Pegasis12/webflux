@@ -8,6 +8,7 @@
 .intro {
   display: flex;
   align-items: center;
+  padding-top: 110px;
   height: 100vh;
 }
 
@@ -38,6 +39,7 @@
   }
 
   .intro {
+    padding-top: initial;
     justify-content: center;
   }
 }

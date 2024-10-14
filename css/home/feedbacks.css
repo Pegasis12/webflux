@@ -1,0 +1,49 @@
+.feedback-bg{
+  background: var(--cor-0);
+}
+
+.feedback{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.feedback-intro h2{
+  margin-bottom: 20px;
+}
+
+.feedback-card{
+  display: grid;
+  gap: 32px;
+  padding: 30px;
+  border-radius: 10px;
+  border: solid 1px var(--cor-p1);
+}
+
+.feedback-card p{
+  font: 400 1.2rem/1.4 "Roboto", sans-serif;
+}
+
+.feedback-autor{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feedback-autor img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media(max-width: 800px){
+  .feedback{
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

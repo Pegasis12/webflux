@@ -11,4 +11,5 @@
 /* home */
 @import "./home/intro.css";
 @import "./home/projetos.css";
-@import "./home/beneficios.css"
+@import "./home/beneficios.css";
+@import "./home/feedbacks.css";
