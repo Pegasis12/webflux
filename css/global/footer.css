@@ -5,13 +5,48 @@
 .footer{
   display: grid;
   grid-template-columns: 5fr 3fr 4fr;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
-@media(max-width: 800px){
+.footer p{
+  margin-bottom: 32px;
+  max-width: 20ch;
+}
+
+.footer span{
+  margin-top: 80px;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.footer h4{
+  margin-bottom: 12px;
+}
+
+.footer li{
+  font: 400 1.03rem/1.6 "Roboto", sans-serif;
+}
+
+@media(max-width: 1000px){
   .footer{
+    grid-template-columns: 1fr;
+    gap: 40px;
     padding-top: 60px;
-    padding-bottom: 60px;
-  }  
+    padding-bottom: 30px;
+  }
+
+  .footer p{
+    margin-bottom: 32px;
+    max-width: initial;
+  }
+
+  .footer a img{
+    display: none;
+  }
+
+  .footer span{
+    text-align: initial;
+    margin-top: 60px;
+  }
 }
