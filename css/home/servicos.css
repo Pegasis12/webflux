@@ -37,4 +37,13 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
+
+  .servicos-card{
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+    border: solid 1px var(--cor-3);
+    padding: 60px;
+    border-radius: 10px;
+  }
 }
