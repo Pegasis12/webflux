@@ -12,10 +12,18 @@
   margin-bottom: 40px;
 }
 
-.promo-galeria{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+.promo ul{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  /* serve para quando um copntainer estourar ele criar uma barra de rolagem sem danificar outros container do site */
+  overflow-x: auto;
+}
+
+.promo li{
+  /* não diminui menos que 280px */
+  flex: 1;
+  min-width: 280px;
 }
 
 @media(max-width: 800px){
