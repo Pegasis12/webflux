@@ -23,12 +23,16 @@
 .promo li{
   /* não diminui menos que 280px */
   flex: 1;
-  min-width: 280px;
+  min-width: 430px;
 }
 
 @media(max-width: 800px){
   .promo{
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .promo li{
+    min-width: 280px;
   }
 }
